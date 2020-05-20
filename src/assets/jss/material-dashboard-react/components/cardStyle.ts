@@ -2,9 +2,10 @@ import {
   blackColor,
   whiteColor,
   hexToRgb
-} from "assets/jss/material-dashboard-react.js";
+} from "assets/jss/material-dashboard-react";
+// import { Styles } from '@material-ui/styles';
 
-const cardStyle = {
+const cardStyle : any= {
   card: {
     border: "0",
     marginBottom: "30px",
