@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -10,8 +12,14 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "chartist": "^0.11.4",
+    "classnames": "^2.2.6",
+    "perfect-scrollbar": "^1.5.0",
     "react": "^16.13.1",
+    "react-chartist": "^0.14.3",
     "react-dom": "^16.13.1",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
@@ -35,5 +43,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/chartist": "^0.9.48",
+    "@types/classnames": "^2.2.10",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/testing-library__jest-dom": "^5.7.0",
+    "@types/testing-library__react": "^10.0.1"
   }
 }
